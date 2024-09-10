@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "SPAGETTI",
+        "price": "150",
+        "image": "images/burg1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "LAKERS BEEF",
+        "price": "110",
+        "image": "images/burg1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "CHICKEN SAUSE",
+        "price": "100",
+        "image": "images/burg1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "MARCARONI",
+        "price": "120",
+        "image": "images/burg1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "BUTTERLY FLAKES",
+        "price": "250",
+        "image": "images/burg1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "CHICKEN",
+        "price": "300",
+        "image": "images/burg1.jpg"
+    }
+   
+]

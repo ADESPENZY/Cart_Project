@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Font Awesome ends -->
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="flex md:flex-row bg-red-50 flex-col justify-between px-10 py-10">
+        <!-- main-page -->
+        <div class="md:w-[70%] md:px-10 py-6">
+            <!-- heading -->
+            <header>
+                <h2 class="text-gray-700 text-4xl font-bold mb-10 ">Desserts</h2>
+            </header>
+            <!-- heading ends -->
+            
+            <!-- cards goes here -->
+            <div class="list grid md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+
+            </div>
+        </div>
+        <!-- main page ends -->
+        
+        <!-- Cart page   -->
+        <div class="w-[30%] py-6 relative">
+            <div class="card  p-5 rounded-lg w-full bg-white flex flex-col justify-between ">
+                <div>
+                    <h1 class="count text-2xl font-bold text-red-500 mb-4">Your Cart (0)</h1>
+                    <div class="listcard">
+                       
+                    </div>
+                    <div class="flex justify-between my-5">
+                        <h1 class="font-bold">Total Order</h1>
+                        <div class="total font-bold"></div>
+                    </div>
+                </div>
+                
+                <div class="chekOut text-center">
+                    <button type="button" onclick="togglePopup()"  class="closeShopping bg-red-500 text-black py-2 px-4 rounded-3xl w-full  font-semibold">confirm order</button>
+                </div>
+            </div>
+        </div>
+        <!-- cart page starts -->
+
+        <!-- Popup starts here -->
+        <div class="popup fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div class="bg-white rounded-lg shadow-lg w-[90%] md:w-[30%] p-6 relative">
+                <div class="flex items-center mb-6">
+                    <i class="fa-solid fa-check-circle text-green-500 text-4xl mr-4"></i>
+                    <h2 class="text-2xl font-bold">Order Confirmed</h2>
+                </div>
+                <p class="mb-4">We hope you enjoy your food!</p>
+                <div class="space-y-4 confirm">
+                    
+                </div>
+                <div class="flex justify-between my-5">
+                    <h1 class="font-bold">Total Order</h1>
+                    <div class="total font-bold"></div>
+                </div>
+                <button onclick="togglePopup()" class="bg-red-500 text-white w-full py-3 rounded">Start New Order</button>
+            </div>
+        </div>
+    <!-- Popup ends here -->
+
+
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>
+
+

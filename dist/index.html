@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Font Awesome ends -->
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="container mx-auto bg-gray-50 active">
+        <header class="flex justify-between bg-slate-700 items-start  p-7">
+            <a href="#">
+                <h1 class="text-2xl font-bold">PRODUCT LIST..</h1>
+            </a>
+            <div class="block cursor-pointer relative shopping">
+                <i class="fa-solid fa-cart-shopping text-blue-600 hover:text-red-500 text-4xl"></i>
+                <span class="shoppingCount w-8 h-8 bg-red-700 text-xs flex justify-center items-center rounded-full absolute top-[20px] right-[-15px]">0</span>
+            </div>
+        </header>
+        <div class="list grid lg:grid-cols-3 md:grid-cols-2 m-20 gap-10">
+        </div>
+        
+    </div>
+    <div class="card active fixed w-[500px] h-screen bg-slate-900 top-0 right-0 bottom-0 left-[100%] transition duration-500 px-5 flex flex-col justify-between">
+        <div>
+            <h1 class="text-yellow-500 text-xl font-bold row-span-2 mb-10">Card</h1>
+            <div class="listcard grid grid-cols-[70px,150px,50px,1fr] gap-5">
+                
+            </div>
+        </div>
+        <div class="chekOut grid grid-cols-2 gap-4 ">
+            <button type="button" class="total bg-white text-black py-2 px-4 rounded font-semibold">0</button>
+            <button type="button" class="closeShopping bg-yellow-500 text-white py-2 px-4 rounded font-semibold">Close</button>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
